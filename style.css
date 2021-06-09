@@ -1,0 +1,129 @@
+/*
+Theme Name: Gabtoli
+Theme URI:
+Author: Younus Mamun
+Author URI: https://younusmamun.org/
+Description: gabtoli brings your site to life with immersive featured images and subtle animations. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: gabtoli
+Tags: blog, education
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+
+h1.heading {
+    font-family: "Arial Black";
+    width: 700px;
+    margin: auto;
+    margin-bottom: 70px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+h3.tagline{
+    font-family: Arial;
+    margin:auto;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    width: 700px;
+    text-align: center;
+}
+
+h2.post-title {
+    margin-bottom: 30px;
+}
+
+.post {
+    margin-bottom: 50px;
+}
+
+.post p{
+    font-family: "Helvetica Neue";
+    line-height: 1.7em;
+    font-size: 18px;
+}
+
+.post .row:nth-child(2) {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.post:last-child .row:nth-child(2){
+    border-bottom:none;
+}
+
+.post p img{
+    max-width: 100%;
+    height: auto;
+}
+
+.post-pagination{
+    margin-bottom: 50px;
+}
+
+.footer{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #222;
+    color:#ccc;
+}
+
+.tags li{
+    color: #3D9970;
+}
+
+.page-header{
+    background-position: center;
+    background-size: cover;
+    margin-bottom:30px;
+    padding:170px 0px;
+}
+.page-header h1.heading a{
+    color: #222;
+    text-decoration: none;
+}
+.navigation{
+    margin-bottom: 80px;
+}
+.post-title a{
+    color: #222;
+}
+
+
+.custom-logo{
+    border-radius: 50px;
+}
+.dashicons{
+    color:#ccc;
+    font-size: 100px;
+    margin-bottom: 40px;
+}
+
+.authorsection{
+    margin: 50px 0;
+    border: 1px solid black;
+    padding: 5px;
+}
+.authorimage img{
+    border-radius: 50px;
+}
+
+.authorpage{
+    margin-bottom: 50px;
+}
+
+.testimonials img{
+    width:120px;
+    height:auto;
+    border-radius:60px;
+}
+
+.search-highlight{
+    background-color:#ff0;
+    font-weight:bold;
+}
